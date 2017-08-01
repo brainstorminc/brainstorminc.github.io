@@ -1,4 +1,2 @@
-  body, html {
-    width: 100%;
-    height: 100%;
-  }
+body,html{width:100%;height:100%}#slideOne{background-color:#363636;display:table}#slideOne button{display:block;margin-left:auto;margin-right:auto}#slideOne h1{color:white;text-align:center;font-size:6rem}#slideOne h2{color:white;text-align:center;font-size:3rem;font-weight:300}#SlideOneContent{display:table-cell;vertical-align:middle}.menu a{color:#3c3c3c !important;margin-left:20%;font-weight:bold !important}
+/*# sourceMappingURL=styles.css.map */
