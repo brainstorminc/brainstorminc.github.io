@@ -1,0 +1,94 @@
+.paddingB {
+  padding-bottom: 30%;
+}
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.mainparralax {
+  height: 50em;
+}
+
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+.hide-on-big {
+  @media screen 
+  and (min-device-width: 2500px) 
+  and (max-device-width: 4000px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) { 
+    display: none;
+  }
+}
+
+.hide-on-small {
+  @media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) { 
+    display: none;
+`}
+}
+
+.small-container {
+  margin: 0 auto;
+  max-width: 1885px;
+  width: 90%
+}
+
+ .parallax-container {
+      height: 500px;
+    }
+
+    .header-parallax-container {
+  position: relative;
+  overflow: hidden;
+  height: 600px;
+}
