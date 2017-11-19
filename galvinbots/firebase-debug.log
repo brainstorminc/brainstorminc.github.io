@@ -1,0 +1,20 @@
+[debug] ----------------------------------------------------------------------
+[debug] Command:      /usr/local/bin/node /usr/local/bin/firebase deploy
+[debug] CLI Version:  3.2.1
+[debug] Platform:     darwin
+[debug] Node Version: v6.9.1
+[debug] Time:         Fri Jan 13 2017 21:46:14 GMT-0800 (PST)
+[debug] ----------------------------------------------------------------------
+[debug] 
+[debug] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase"]
+[debug] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/brainstorminc-cdb06 
+[debug] <<< HTTP RESPONSE 200
+[debug] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/brainstorminc-cdb06/tokens 
+[debug] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'brainstorminc-cdb06'...
+[info] 
+[info] i  deploying database, hosting
+[info] ✔  database: rules ready to deploy.
+[info] i  hosting: preparing public directory for upload...
+[debug] >>> HTTP REQUEST PUT https://deploy.firebase.com/v1/hosting/brainstorminc-cdb06/uploads/-KaQVlnxBiR-Wl2ytVXd?fileCount=335&message= 
